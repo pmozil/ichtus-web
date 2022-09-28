@@ -6,10 +6,8 @@
     min-height: 21.125rem;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--menu-bg);
+    background-image: linear-gradient(var(--background), var(--menu-bg), var(--menu-bg));
     color: var(--secondary);
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
     flex-wrap: wrap;
     gap: 2rem;
 
