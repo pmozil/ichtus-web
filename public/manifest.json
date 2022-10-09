@@ -1,6 +1,6 @@
 {
-  "short_name": "Lviv Physics and Maths Licaum",
-  "name": "lpml-web",
+  "short_name": "ΙΧΘΥΣ",
+  "name": "Ichtus",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,4 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#d8dee9",
-  "background_color": "#2e3440"
 }

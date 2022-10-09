@@ -11,7 +11,7 @@ export default function App({ articles }){
     return (
         <>
             <Head>
-                <title>Lviv Physics and Maths Lyceum</title>
+                <title>ΙΧΘΥΣ</title>
             </Head>
             <MainPage scrollRef={scroll} />
             <NewsPage articles={articles} scrollRef={scroll} />

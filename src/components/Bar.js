@@ -46,7 +46,7 @@ export default function Topbar() {
                 <DrawerButton/>
                 <Link href="/">
                     <a href="/" className={styles.name} onClick={hide}>
-                        ЛФМЛ
+                        ΙΧΘΥΣ
                     </a>
                 </Link>
                 <span className={`${styles.search} ${searchOpen ? styles.open :  styles.closed}`}>

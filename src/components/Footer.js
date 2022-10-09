@@ -1,7 +1,6 @@
 import styles from "../scss/Footer.module.scss";
 import Switcher from "./Themeswitcher.js";
 import { FaFacebook } from "react-icons/fa";
-import Logo from "./logo.svg";
 import Link from "next/link";
 
 function FooterLink({ href, children }) {
@@ -45,11 +44,6 @@ export default function Footer () {
                 <div className={styles.socials}>
                     <FaFacebook />
                 </div>
-                <Link href="/">
-                    <a href="/" className={styles.logo}>
-                        <Logo />
-                    </a>
-                </Link>
                 <Switcher />
             </div>
         </div>
