@@ -6,11 +6,11 @@ const themes = [
         name: "default",
         icon: <FaSun />,
         style: {
-            background: "#ffffff",
+            background: "#e0e0ef",
             foreground: "#282828",
-            menu: "#3c3836",
+            menu: "#1a1b26",
             highlight: "#b57614",
-            secondary: "#a89984",
+            secondary: "#a9b1d6",
         },
     },
     {
