@@ -1,8 +1,6 @@
 ---
-title: Info
-description: Dis be a test
+title: About
+description: About ΙΧΘΥΣ
 File: about.md
 ---
-Lemme test this pls
-
-Oh Come ON. Why does this not WORK?
+Yay, this works!
