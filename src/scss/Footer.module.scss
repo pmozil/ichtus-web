@@ -36,22 +36,18 @@
             .link {
                 color: var(--secondary);
                 margin: 0.5rem;
+                transition: 200ms all;
 
                 font-family: 'sans-serif';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 1rem;
+                font-size: 1.4rem;
                 line-height: 1.5rem;
             }
-        }
-        .socials {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-evenly;
-            font-size: 3rem;
-            width: 100%;
-            padding: 1rem;
+            .link:hover {
+                transform: scale(1.1);
+                color: var(--highlight);
+            }
         }
         .logo {
             transform: scale(0.5);

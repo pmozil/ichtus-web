@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, useSearchBox, useHits, Snippet } from 'react-instantsearch-hooks-web';
-import styles from "../scss/Sidebar.module.scss";1
+import styles from "../scss/Nav.module.scss";
 import Link from "next/link";
 
 const searchClient = algoliasearch('YDAI2FBH5X', 'fc7cebb96b7664d69d8e2c3f1b3e3574');

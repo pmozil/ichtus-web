@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import {
     FaBars,
 } from "react-icons/fa";
-import styles from "../scss/Sidebar.module.scss";
+import styles from "../scss/Nav.module.scss";
 import Link from "next/link";
 import SearchBar from "./Search";
 import {
@@ -20,7 +20,7 @@ function MenuItem({ hide, href, children }) {
     );
 }
 
-function DrawerButton() {
+function Bars() {
     return (
         <label htmlFor="drawer" className={styles.drawerlabel}>
             <FaBars className={`${styles.icon} ${styles.menubutton}`}/>
@@ -29,7 +29,7 @@ function DrawerButton() {
 	)
 }
 
-export { SearchBar, MenuItem, DrawerButton };
+export { SearchBar, MenuItem, Bars };
 
 export default function Topbar() {
     const checkbox = useRef(null);
@@ -43,7 +43,7 @@ export default function Topbar() {
         <>
             <input className={styles.drawer} id="drawer" type="checkbox" ref={checkbox} />
             <div className={styles.titlebar}>
-                <DrawerButton/>
+                <Bars/>
                 <Link href="/">
                     <a href="/" className={styles.name} onClick={hide}>
                         ΙΧΘΥΣ

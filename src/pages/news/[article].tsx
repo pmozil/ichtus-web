@@ -8,7 +8,7 @@ export default function ArticlePage({ id, content, title }) {
       <>
         <Article id={id} content={content} />
         <Head>
-          <title>LPML - News - {title}</title>
+          <title>ΙΧΘΥΣ - News - {title}</title>
         </Head>
       </>
     );

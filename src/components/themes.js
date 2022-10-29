@@ -23,7 +23,7 @@ const themes = [
             highlight: "#a3be8c",
             secondary: "#e5e9f0",
         },
-    },
+    }
 ];
 
 export default themes;
