@@ -4,7 +4,7 @@ import { InstantSearch, useSearchBox, useHits, Snippet } from 'react-instantsear
 import styles from "../scss/Nav.module.scss";
 import Link from "next/link";
 
-const searchClient = algoliasearch('YDAI2FBH5X', 'fc7cebb96b7664d69d8e2c3f1b3e3574');
+const searchClient = algoliasearch('LU7CH16PST', '06d0fc54f3c18abca49e89a3d8471ccf');
 
 function SearchBox ({ query, refine }) {
     return (
@@ -48,7 +48,7 @@ function SearchBar({ hide }) {
 
 export default function Search({ hide }) {
     return (
-        <InstantSearch searchClient={searchClient} indexName="netlify_f81c862b-0802-4633-bdf8-5fec7e7aaf73_main_all">
+        <InstantSearch searchClient={searchClient} indexName="netlify_1e91fa42-c577-472f-875f-f59313a1e197_main_all">
             <SearchBar hide={hide} />
         </InstantSearch>
     );
