@@ -1,21 +1,10 @@
-// <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-// <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-// <script type="text/javascript">
-//   algoliasearchNetlify({
-//     appId: 'YME1UH7S4I',
-//     apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
-//     siteId: '1e91fa42-c577-472f-875f-f59313a1e197',
-//     branch: 'main',
-//     selector: 'div#search',
-//   });
-// </script>
 import { useState, useEffect } from 'react';
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, useSearchBox, useHits, Snippet } from 'react-instantsearch-hooks-web';
 import styles from "../scss/Nav.module.scss";
 import Link from "next/link";
 
-const searchClient = algoliasearch('YME1UH7S4I', '658a300248db1cc958ff335ee43dcf64');
+const searchClient = algoliasearch('638367IDIO', 'd957f812ec1507807563d6e866debd69');
 
 function SearchBox ({ query, refine }) {
     return (
@@ -59,7 +48,7 @@ function SearchBar({ hide }) {
 
 export default function Search({ hide }) {
     return (
-        <InstantSearch searchClient={searchClient} indexName="netlify_1e91fa42-c577-472f-875f-f59313a1e197_main_all">
+        <InstantSearch searchClient={searchClient} indexName="netlify_f1b5e661-c48a-424a-886e-03396d5f9fb2_main_all">
             <SearchBar hide={hide} />
         </InstantSearch>
     );
