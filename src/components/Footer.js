@@ -12,7 +12,7 @@ function FooterLink({ href, children }) {
     );
 }
 
-export default function Footer () {
+export default function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.column}>
@@ -30,7 +30,7 @@ export default function Footer () {
                     Контактна інформація:
                 </div>
                 <div className={styles.label}>
-                    locaiton
+                    location
                 </div>
                 <div className={styles.label}>
                     telephone
